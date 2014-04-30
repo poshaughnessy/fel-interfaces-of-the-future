@@ -1,5 +1,4 @@
-# Interfaces of the Future
-## And how to hack around with them now
+# Interfaces of the Future... and how to hack around with them now
 
 A presentation I am hoping to give to the [Front End London](http://www.frontendlondon.co.uk) meetup later this year.
 
