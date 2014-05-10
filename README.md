@@ -8,6 +8,7 @@ Slides based on [reveal.js]((http://lab.hakim.se/reveal-js/)), copyright (C) 201
 
 * Amiga, [http://upload.wikimedia.org/wikipedia/commons/c/c3/Amiga500_system.jpg](Wikimedia)
 * iPad virtual keyboard, [http://upload.wikimedia.org/wikipedia/commons/c/c9/Apple_iPad_Event03.jpg](Wikimedia)
+* Siri, [https://www.flickr.com/photos/jaysta/](Jay Prospero, Flickr)
 
 
 ## License
