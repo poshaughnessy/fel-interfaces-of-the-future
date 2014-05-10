@@ -176,7 +176,9 @@ body {
 .reveal section img {
   display: block;
   margin: 0 auto 0.5em auto;
-  border: 0; }
+  border: 0;
+  background: none;
+  box-shadow: 0 0 0; }
   .reveal section img.plain {
     box-shadow: none;
     background: none; }

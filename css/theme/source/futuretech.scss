@@ -89,6 +89,8 @@ $selectionBackgroundColor: #134674;
   display: block;
   margin: 0 auto 0.5em auto;
   border: 0;
+  background: none;
+  box-shadow: 0 0 0;
 
   &.plain {
     box-shadow: none;
