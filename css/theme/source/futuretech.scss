@@ -73,16 +73,23 @@ $selectionBackgroundColor: #134674;
   line-height: 1em;
 }
 
-.reveal h1 {
-
-}
-
 .reveal h2 {
   font-size: 2em;
+  line-height: 1.2em;
+}
+
+.reveal .title h2 {
+  line-height: 1em;
+}
+
+.reveal ul {
+  margin-top: 1em;
 }
 
 .reveal li {
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
+  color: #fff;
+  font-size: 1.5em;
 }
 
 .reveal blockquote {
