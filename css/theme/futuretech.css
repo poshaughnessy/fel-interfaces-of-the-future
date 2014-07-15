@@ -202,5 +202,11 @@ body {
 .reveal .controls div {
   opacity: 0.25; }
 
+.reveal img.full {
+  min-width: 60%;
+  min-height: 80%;
+  width: auto;
+  height: auto; }
+
 section.title h1 {
   margin-bottom: 80px; }

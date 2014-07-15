@@ -133,6 +133,13 @@ $selectionBackgroundColor: #134674;
   opacity: 0.25;
 }
 
+.reveal img.full {
+  min-width: 60%;
+  min-height: 80%;
+  width: auto;
+  height: auto;
+}
+
 // Slide-specific styles  ----------------------
 
 section.title h1 {
