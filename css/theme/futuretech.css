@@ -4,13 +4,11 @@
  * Based on Sky theme, copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700,400italic,700italic);
-.reveal a:not(.image) {
-  line-height: 1.3em; }
-
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
 body {
+  background: #367095;
   background-color: #367095; }
 
 .reveal {
@@ -143,6 +141,13 @@ body.high-contrast {
   font-size: 2.7em;
   color: #fff; }
 
+.reveal a:not(.image) {
+  line-height: 1.3em;
+  color: #ddd; }
+
+.reveal a:not(.image):hover {
+  color: #fff; }
+
 .reveal h1,
 .reveal h2,
 .reveal h3,
@@ -173,6 +178,9 @@ body.high-contrast {
 .reveal ul {
   margin-top: 1em; }
 
+.reveal ul.more-text {
+  font-size: 0.9em; }
+
 .reveal li {
   margin-bottom: 0.5em;
   color: #fff;
@@ -185,6 +193,9 @@ body.high-contrast {
   margin-bottom: 0.5em;
   line-height: 1.2em;
   background: none; }
+
+.reveal a {
+  color: #ccc; }
 
 .reveal section img {
   display: block;

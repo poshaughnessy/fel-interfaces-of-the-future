@@ -31,24 +31,12 @@ $navColor: #eee;
 $navColorHover: #fff;
 $selectionBackgroundColor: #134674;
 
-// Fix links so they are not cut off
-.reveal a:not(.image) {
-  line-height: 1.3em;
-}
-
-// Background generator
-@mixin bodyBackground() {
-  //@include radial-gradient( #add9e4, #f7fbfc );
-}
-
-
-
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
 
 
-// Future Tech modifications -------------------
+// Future Tech additions -------------------
 
 body.high-contrast {
   background-color: #000;
@@ -56,6 +44,15 @@ body.high-contrast {
 
 .reveal {
   font-size: 2.7em;
+  color: #fff;
+}
+
+.reveal a:not(.image) {
+  line-height: 1.3em;
+  color: #ddd;
+}
+
+.reveal a:not(.image):hover {
   color: #fff;
 }
 
@@ -95,6 +92,10 @@ body.high-contrast {
   margin-top: 1em;
 }
 
+.reveal ul.more-text {
+  font-size: 0.9em;
+}
+
 .reveal li {
   margin-bottom: 0.5em;
   color: #fff;
@@ -108,6 +109,10 @@ body.high-contrast {
   margin-bottom: 0.5em;
   line-height: 1.2em;
   background: none;
+}
+
+.reveal a {
+  color: #ccc;
 }
 
 .reveal section img {
