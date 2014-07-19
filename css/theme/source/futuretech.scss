@@ -93,7 +93,7 @@ body.high-contrast {
 }
 
 .reveal ul.more-text {
-  font-size: 0.9em;
+  font-size: 0.8em;
 }
 
 .reveal li {
@@ -156,6 +156,12 @@ body.high-contrast {
 
 .reveal .subtle {
   color: #aaa;
+}
+
+.reveal .list-intro {
+  margin-top: 1.5em;
+  margin-bottom: 0;
+  font-size: 1.2em;
 }
 
 // Slide-specific styles  ----------------------

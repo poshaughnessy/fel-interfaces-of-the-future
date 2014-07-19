@@ -12,10 +12,13 @@ Slides based on [reveal.js](http://lab.hakim.se/reveal-js/), copyright (C) 2013 
 * Long Nose of Innovation sketch, [Sketchplanations](http://www.sketchplanations.com/post/60700964916/the-long-nose-of-innovation-bill-buxton-i-love)
 * Boy wearing Oculus Rift, [Wikimedia](http://upload.wikimedia.org/wikipedia/commons/d/d6/Boy_wearing_Oculus_Rift_HMD.jpg)
 * Oculus Rift Grandma, [Paul Rivot](http://youtu.be/pAC5SeNH8jw)
-
+* Oculus Tuscany demo, [Oculus VR via theriftlist.com](http://theriftlist.com/Home/Game?Name=Oculus%20Tuscany)
+* Pebble and Galaxy Gear, [Kārlis Dambrāns](https://www.flickr.com/photos/janitors/10345415843/)
+* Scobleizer with Glass, [Thomas Hawk](https://www.flickr.com/photos/thomashawk/14259298346)
 
 ## License
 
-[MIT](LICENSE).
+Code: [MIT](LICENSE)
+Content: [Creative Commons with Attribution 3.0](https://creativecommons.org/licenses/by/3.0/)
 
 Copyright (C) 2014 Peter O'Shaughnessy @poshaughnessy

@@ -30,7 +30,7 @@
             <section class="title">
                 <h1>Interfaces of the Future</h1>
                 <h2>And how to hack around<br> with them now</h2>
-                <p class="small">Peter O'Shaughnessy <span class="subtle">|</span> @poshaughnessy <span class="subtle">|</span> Press <strong>f</strong> for full screen, <strong>h</strong> for high contrast</p>
+                <p class="small">Peter O'Shaughnessy <span class="subtle">|</span> <a href="https://www.twitter.com/poshaughnessy">@poshaughnessy</a> <span class="subtle">|</span> Press <strong>f</strong> for full screen, <strong>h</strong> for high contrast</p>
             </section>
 
             <section>
@@ -63,24 +63,83 @@
             </section>
 
             <section>
-                <h4>Virtual Reality?</h4>
-                <img class="full" src="img/virtuality.jpg" alt="90s Virtual Reality"/>
-            </section>
-
-            <section>
                 <img class="full" src="img/long-nose-of-innovation-sketchplanation.png" alt="Long Nose of Innovation"/>
             </section>
 
             <section>
+                <h4>Smartwatches?</h4>
+                <img class="full" src="img/smartwatches.jpg" alt="Pebble and Galaxy Gear"/>
+            </section>
+
+            <section>
+                <h3>Challenges</h3>
+                <ul class="fragment">
+                    <li>Small screen</li>
+                    <li>Lack of affordances</li>
+                    <li>Battery life</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Upsides</h3>
+                <ul class="fragment">
+                    <li>"Glanceability"</li>
+                    <li>Hands-free</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Smartwatches for Web devs</h3>
+                <ul class="fragment more-text">
+                    <li><a href="http://developer.getpebble.com/2/guides/javascript-guide.html">Pebble JavaScript Framework</a> (phone only)</li>
+                    <li>Gear 2 <a href="http://www.w3.org/TR/widgets/">Packaged Web Apps (Widgets)</a></li>
+                </ul>
+            </section>
+
+            <section>
+                <h4>Smartglasses?</h4>
+                <img src="img/google-glass-scoble.jpg" alt="Google Glass"/>
+            </section>
+
+            <section>
+                <h3>Challenges</h3>
+                <ul class="fragment">
+                    <li>Privacy concerns</li>
+                    <li>Embarrassment</li>
+                    <li>Small display in fixed position</li>
+                    <li>Battery life</li>
+                    <li>Overheating</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Upsides</h3>
+                <ul class="fragment">
+                    <li>"Glanceability"</li>
+                    <li>Hands-free</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Smartglasses for Web devs</h3>
+                <ul class="fragment more-text">
+                    <li><a href="https://developers.google.com/glass/">Glass Mirror API</a></li>
+                    <li>Glass also has a limited <a href="http://developer.android.com/guide/components/intents-common.html#Browser">Web browser</a></li>
+                </ul>
+            </section>
+
+            <section>
+                <h4>Virtual Reality?</h4>
                 <img class="full" src="img/Boy_wearing_Oculus_Rift_HMD.jpg" alt="Boy wearing Oculus Rift"/>
             </section>
 
             <section>
-                <img class="full" src="img/GoogleCardboard.png" alt="Google Cardboard"/>
+                <h4>Google Cardboard</h4>
+                <img class="full" src="img/GoogleCardboard.jpg" alt="Google Cardboard"/>
             </section>
 
             <section>
-                <h3>Negatives</h3>
+                <h3>Current challenges</h3>
                 <ul class="fragment">
                     <li>Isolation</li>
                     <li>Motion sickness</li>
@@ -90,8 +149,12 @@
             </section>
 
             <section>
-                <h3>What's the fuss, then?</h3>
+                <h3>Upsides</h3>
                 <h2 class="fragment"><em>Presence.</em></h2>
+            </section>
+
+            <section>
+                <img class="full" src="img/presence-cliff-edge.jpg"/>
             </section>
 
             <section>
@@ -99,19 +162,54 @@
             </section>
 
             <section>
-                <h3>VR for Web developers</h3>
-                <ul class="more-text">
-                    <li class="fragment">June 2014 - <a href="http://blog.ludei.com/webgl-ios-8-safari-webview/">Apple embrace WebGL</a></li>
-                    <li class="fragment">June 2014 - <a href="http://blog.bitops.com/blog/2014/06/26/first-steps-for-vr-on-the-web/">Firefox release VR builds</a></li>
-                    <li class="fragment">July 2014 - <a href="http://blog.tojicode.com/2014/07/bringing-vr-to-chrome.html">Chrome release VR builds</a></li>
+                <h3>VR for Web devs</h3>
+                <div class="fragment">
+                    <h4 class="list-intro">All in the last few weeks:</h4>
+                    <ul class="more-text">
+                        <li><a href="http://blog.bitops.com/blog/2014/06/26/first-steps-for-vr-on-the-web/">Mozilla release VR Firefox builds</a></li>
+                        <li><a href="http://blog.tojicode.com/2014/07/bringing-vr-to-chrome.html">Google release VR Chrome builds</a></li>
+                        <li><a href="http://blog.ludei.com/webgl-ios-8-safari-webview/">Apple embrace WebGL</a></li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <h3>What are browsers implementing?</h3>
+                <ul class="more-text fragment">
+                    <li>Device discovery</li>
+                    <li>Full screen extensions</li>
+                    <li>Sensor integration, e.g. orientation</li>
+                    <li>Rendering for different hardware</li>
                 </ul>
             </section>
 
             <section>
-                <h3>WebVR</h3>
-
+                <h2>&ldquo;WebVR&rdquo;</h2>
+                <ul class="more-text fragment">
+                    <li>"Version Zero"</li>
+                    <li>Not even in alpha channels yet</li>
+                </ul>
             </section>
 
+            <section>
+                <h3>WebGL</h3>
+                <!-- TODO two renders - for each eye -->
+            </section>
+
+            <section>
+                <h3>CSS 3D</h3>
+                <!-- TODO test if this actually works and show an example -->
+            </section>
+
+            <!--
+            <section>
+                <h3>What will you need to do?</h3>
+                <ul class="more-text fragment">
+                    <li>WebGL - render scene for each eye</li>
+                    <li>CSS3D - just set preserve-3d & perspective</li>
+                </ul>
+            </section>
+            -->
 
             <!-- Something to finish with, perhaps: -->
             <!-- http://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/ -->

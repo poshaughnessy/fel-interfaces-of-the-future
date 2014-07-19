@@ -179,7 +179,7 @@ body.high-contrast {
   margin-top: 1em; }
 
 .reveal ul.more-text {
-  font-size: 0.9em; }
+  font-size: 0.8em; }
 
 .reveal li {
   margin-bottom: 0.5em;
@@ -228,6 +228,11 @@ body.high-contrast {
 
 .reveal .subtle {
   color: #aaa; }
+
+.reveal .list-intro {
+  margin-top: 1.5em;
+  margin-bottom: 0;
+  font-size: 1.2em; }
 
 section.title h1 {
   margin-bottom: 80px; }
