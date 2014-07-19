@@ -50,8 +50,13 @@ $selectionBackgroundColor: #134674;
 
 // Future Tech modifications -------------------
 
+body.high-contrast {
+  background-color: #000;
+}
+
 .reveal {
-  font-size: 2.8em;
+  font-size: 2.7em;
+  color: #fff;
 }
 
 .reveal h1,
@@ -80,6 +85,10 @@ $selectionBackgroundColor: #134674;
 
 .reveal .title h2 {
   line-height: 1em;
+}
+
+.reveal p.small {
+  font-size: 0.6em;
 }
 
 .reveal ul {
@@ -140,8 +149,18 @@ $selectionBackgroundColor: #134674;
   height: auto;
 }
 
+.reveal .subtle {
+  color: #aaa;
+}
+
 // Slide-specific styles  ----------------------
 
-section.title h1 {
-  margin-bottom: 80px;
+section.title {
+  h1 {
+    margin-bottom: 80px;
+  }
+  h2 {
+    margin-bottom: 1em;
+  }
 }
+
