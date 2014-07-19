@@ -18,7 +18,7 @@ Slides based on [reveal.js](http://lab.hakim.se/reveal-js/), copyright (C) 2013 
 
 ## License
 
-Code: [MIT](LICENSE)
-Content: [Creative Commons with Attribution 3.0](https://creativecommons.org/licenses/by/3.0/)
+* Code: [MIT](LICENSE)
+* Content: [Creative Commons with Attribution 3.0](https://creativecommons.org/licenses/by/3.0/)
 
 Copyright (C) 2014 Peter O'Shaughnessy @poshaughnessy
