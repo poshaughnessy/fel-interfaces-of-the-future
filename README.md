@@ -17,6 +17,7 @@ Slides based on [reveal.js](http://lab.hakim.se/reveal-js/), copyright (C) 2013 
 * Scobleizer with Glass, [Thomas Hawk](https://www.flickr.com/photos/thomashawk/14259298346)
 * iWatch concept, [Todd Hamilton](http://toddham.com/blog/iwatch-concept/)
 * Rayban shades, [Wikimedia](http://upload.wikimedia.org/wikipedia/commons/4/4b/RayBanAviator.jpg)
+* CSS3D Earth, [edankwan.com](http://www.edankwan.com/lab/css3dEarth)
 
 ## License
 

@@ -142,7 +142,7 @@
             </section>
 
             <section>
-                <h3>Current challenges</h3>
+                <h3>Challenges</h3>
                 <ul class="fragment">
                     <li>Isolation</li>
                     <li>Motion sickness</li>
@@ -196,14 +196,19 @@
                 </ul>
             </section>
 
-            <section>
+            <section data-transition="fadesibling">
                 <h3>WebGL</h3>
-                <!-- TODO two renders - for each eye -->
+                <img src="img/oculus-stereo-normal.jpg" alt="Stereo with no distortion"/>
             </section>
 
-            <section>
+            <section data-transition="fade">
+                <h3>WebGL</h3>
+                <img src="img/oculus-stereo-distortion.jpg" alt="Stereo with distortion for Oculus"/>
+            </section>
+
+            <section data-transition="fadesibling">
                 <h3>CSS 3D</h3>
-                <!-- TODO test if this actually works and show an example -->
+                <img src="img/css3d-globe.jpg" alt="CSS3D Globe"/>
             </section>
 
             <section>
@@ -272,6 +277,8 @@
 
             theme: 'futuretech', // available themes are in /css/theme
             transition: Reveal.getQueryHash().transition || 'concave', // default/cube/page/concave/zoom/linear/fade/none
+
+            //backgroundTransition: 'concave',
 
             width: 1024,
             height: 768,

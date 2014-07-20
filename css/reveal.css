@@ -1099,6 +1099,23 @@ body {
 	        transition: none;
 }
 
+/* Edits by Peter */
+.reveal .slides section[data-transition=fadesibling].past,
+.reveal .slides section[data-transition=fadesibling].future {
+	-webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -ms-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+
+    opacity: 0;
+}
 
 /*********************************************
  * NO TRANSITION
