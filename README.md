@@ -9,6 +9,7 @@ Slides based on [reveal.js](http://lab.hakim.se/reveal-js/), copyright (C) 2013 
 * More examples
 * Demo of WebVR - show JavaScript code
 * Finish script
+* Get feedback
 
 
 ## Image credits
