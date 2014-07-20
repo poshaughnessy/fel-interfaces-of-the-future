@@ -143,10 +143,10 @@ body.high-contrast {
 
 .reveal a:not(.image) {
   line-height: 1.3em;
-  color: #ddd; }
+  color: #daf0ff; }
 
 .reveal a:not(.image):hover {
-  color: #fff; }
+  color: #bfe5ff; }
 
 .reveal h1,
 .reveal h2,
