@@ -1099,7 +1099,7 @@ body {
 	        transition: none;
 }
 
-/* Edits by Peter */
+/* Added by Peter to allow us to have a fade effect just for specific slides */
 .reveal .slides section[data-transition=fadesibling].past,
 .reveal .slides section[data-transition=fadesibling].future {
 	-webkit-transform: none;
