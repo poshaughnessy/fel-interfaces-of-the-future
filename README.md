@@ -4,6 +4,13 @@ A presentation I am hoping to give to the [Front End London](http://www.frontend
 
 Slides based on [reveal.js](http://lab.hakim.se/reveal-js/), copyright (C) 2013 Hakim El Hattab, http://hakim.se.
 
+## TODO
+
+* More examples
+* Demo of WebVR - show JavaScript code
+* Finish script
+
+
 ## Image credits
 
 * Netscape Navigator, [Wikipedia](http://en.wikipedia.org/wiki/File:Netscape_Navigator.png)
