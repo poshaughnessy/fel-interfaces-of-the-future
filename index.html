@@ -13,6 +13,7 @@
     <link rel="icon" type="image/png" href="img/favicon.png">
 
     <link rel="stylesheet" href="css/reveal.min.css">
+    <link rel="stylesheet" href="lib/css/zenburn.css">
     <link rel="stylesheet" href="css/theme/futuretech.css" id="theme">
 
     <!--[if lt IE 9]>
@@ -244,11 +245,37 @@
             </section>
 
             <section>
-                <h3>Three.js example</h3>
-                <pre>
-...
+                <h2>Code time</h2>
+                <h3>Warning: these APIs <em>will</em> change</h3>
+            </section>
+
+            <section data-transition="fadesibling">
+                <pre><code class="javascript">// Find a VR device (just use the first one we find)
+function vrDeviceCallback( vrDevices ) {
+
+    for( var i = 0; i < vrdevs.length; i++ ) {
+        if( vrdevs[i] instanceof HMDVRDevice ) {
+            vrHMD = vrdevs[i];
+            break;
+        }
+    }
+}
+                </code></pre>
+            </section>
+
+            <section data-transition="fadesibling">
+                <pre><code class="javascript">
 container.mozRequestFullScreen({ vrDisplay: vrHMD });
-                </pre>
+
+
+
+
+
+
+
+
+
+                </code></pre>
             </section>
 
             <section>
@@ -258,7 +285,7 @@ container.mozRequestFullScreen({ vrDisplay: vrHMD });
 
             <section>
                 <h3>Let's get ahead of the curve</h3>
-                <h3 class="fraction">And start hacking!</h3>
+                <h3 class="fraction">And start hacking now!</h3>
             </section>
 
             <section>
@@ -318,6 +345,7 @@ container.mozRequestFullScreen({ vrDisplay: vrHMD });
                     return !!document.querySelector('[data-markdown]');
                 } },
                 { src: 'plugin/highlight/highlight.js', async: true, callback: function () {
+                    console.log('xxx init highlighting on load');
                     hljs.initHighlightingOnLoad();
                 } },
                 { src: 'plugin/zoom-js/zoom.js', async: true, condition: function () {
