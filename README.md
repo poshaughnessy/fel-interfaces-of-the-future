@@ -26,6 +26,7 @@ Slides based on [reveal.js](http://lab.hakim.se/reveal-js/), copyright (C) 2013 
 * iWatch concept, [Todd Hamilton](http://toddham.com/blog/iwatch-concept/)
 * Rayban shades, [Wikimedia](http://upload.wikimedia.org/wikipedia/commons/4/4b/RayBanAviator.jpg)
 * CSS3D Earth, [edankwan.com](http://www.edankwan.com/lab/css3dEarth)
+* Universe from a meadow, [mind-criminal](http://mind-criminal.deviantart.com/art/Universe-From-a-Meadow-257284639)
 
 ## License
 

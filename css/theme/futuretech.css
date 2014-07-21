@@ -234,6 +234,13 @@ body.high-contrast {
   margin-bottom: 0;
   font-size: 1.2em; }
 
+.reveal pre {
+  width: 100%;
+  padding: 10px;
+  background: #fefefe;
+  color: #000;
+  font-size: 0.95em; }
+
 section.title h1 {
   margin-bottom: 80px; }
 section.title h2 {
