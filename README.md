@@ -24,6 +24,7 @@ Slides based on [reveal.js](http://lab.hakim.se/reveal-js/), copyright (C) 2013 
 * Pebble and Galaxy Gear, [Kārlis Dambrāns](https://www.flickr.com/photos/janitors/10345415843/)
 * Scobleizer with Glass, [Thomas Hawk](https://www.flickr.com/photos/thomashawk/14259298346)
 * iWatch concept, [Todd Hamilton](http://toddham.com/blog/iwatch-concept/)
+* Neo from The Matrix, [Sudhee](http://www.flickr.com/photos/sudhee/82891943)
 * Rayban shades, [Wikimedia](http://upload.wikimedia.org/wikipedia/commons/4/4b/RayBanAviator.jpg)
 * CSS3D Earth, [edankwan.com](http://www.edankwan.com/lab/css3dEarth)
 * Universe from a meadow, [mind-criminal](http://mind-criminal.deviantart.com/art/Universe-From-a-Meadow-257284639)
