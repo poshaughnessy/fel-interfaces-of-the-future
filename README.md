@@ -6,10 +6,12 @@ Slides based on [reveal.js](http://lab.hakim.se/reveal-js/), copyright (C) 2013 
 
 ## TODO
 
-* More examples
-* Demo of WebVR - show JavaScript code
+* Get demo working in Chrome
+* Cardboard example - work out what differences are
+* Demo GitHub link
 * Finish script
-* Get feedback
+* Dry run
+* (Put demo up online? Will need a loading notification...)
 
 
 ## Image credits
