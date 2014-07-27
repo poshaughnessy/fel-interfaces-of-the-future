@@ -43,9 +43,11 @@
                 <img width="70%" src="img/ft-h-white-trans.png" alt="Future Tech"/>
             </section>
 
+            <!--
             <section>
                 <h2>We're about to enter a new era...</h2>
             </section>
+            -->
 
             <section>
                 <!-- In terms of the ways that we interact with the Web, first we had desktops, with keyboards and mice -->
@@ -68,14 +70,62 @@
             </section>
 
             <section>
-                <img class="full" src="img/long-nose-of-innovation-sketchplanation.png" alt="Long Nose of Innovation"/>
-            </section>
-
-            <section>
                 <h4>Smartwatches?</h4>
                 <img class="full" src="img/smartwatches.jpg" alt="Pebble and Galaxy Gear"/>
             </section>
 
+            <!--
+            <section>
+                <img src="img/toddham_iwatch_all.png" alt="iWatch concept"/>
+                <h4>2014?</h4>
+            </section>
+            -->
+
+            <section>
+                <h4>Smartglasses?</h4>
+                <img src="img/google-glass-scoble.jpg" alt="Google Glass"/>
+            </section>
+
+            <!--
+            <section>
+                <img src="img/RayBanAviator.jpg" alt="Raybans"/>
+                <h4>2019?</h4>
+            </section>
+            -->
+
+            <!--
+            <section>
+                <h2>&ldquo;That still sounds like the Multi-device Era...&rdquo;</h2>
+            </section>
+            -->
+
+            <section>
+                <h2>Pictures Under Glass</h2>
+            </section>
+
+            <section>
+                <img class="full" src="img/long-nose-of-innovation-sketchplanation.png" alt="Long Nose of Innovation"/>
+            </section>
+
+            <section>
+                <img class="full" src="img/Gartner_Hype_Cycle.svg" alt="Hype Cycle"/>
+            </section>
+
+            <section>
+                <h2>Natural User Interfaces</h2>
+            </section>
+
+            <section>
+                <h4>Augmented Reality</h4>
+                <img src="img/RayBanAviator.jpg" alt="Raybans"/>
+            </section>
+
+            <section>
+                <h4>Virtual Reality?</h4>
+                <img class="full" src="img/Boy_wearing_Oculus_Rift_HMD.jpg" alt="Boy wearing Oculus Rift"/>
+            </section>
+
+            <!--
             <section>
                 <h3>Challenges</h3>
                 <ul class="fragment">
@@ -90,16 +140,6 @@
                 <ul class="fragment">
                     <li>"Glanceability"</li>
                 </ul>
-            </section>
-
-            <section>
-                <img src="img/toddham_iwatch_all.png" alt="iWatch concept"/>
-                <h4>2014?</h4>
-            </section>
-
-            <section>
-                <h4>Smartglasses?</h4>
-                <img src="img/google-glass-scoble.jpg" alt="Google Glass"/>
             </section>
 
             <section>
@@ -125,11 +165,7 @@
                 <img src="img/RayBanAviator.jpg" alt="Raybans"/>
                 <h4>2019?</h4>
             </section>
-
-            <section>
-                <h4>Virtual Reality?</h4>
-                <img class="full" src="img/Boy_wearing_Oculus_Rift_HMD.jpg" alt="Boy wearing Oculus Rift"/>
-            </section>
+            -->
 
             <!--
             <section>
@@ -138,6 +174,7 @@
             </section>
             -->
 
+            <!--
             <section>
                 <h3>Challenges</h3>
                 <ul class="fragment">
@@ -154,8 +191,10 @@
                     <li>"Presence"</li>
                 </ul>
             </section>
+            -->
 
             <section>
+                <h3>Presence</h3>
                 <img class="full" src="img/presence-cliff-edge.jpg"/>
             </section>
 
@@ -245,40 +284,62 @@
             </section>
 
             <section>
-                <h2>Code time</h2>
-                <h3>Warning: these APIs <em>will</em> change</h3>
+                <h2>Code</h2>
+                <h3>Warning: APIs will change</h3>
             </section>
 
             <section data-transition="fadesibling">
-                <pre><code class="javascript">// Find a VR device (just use the first one we find)
-function vrDeviceCallback( vrDevices ) {
+                <pre><code class="javascript">if( navigator.getVRDevices ) {
+    // Chrome
+    navigator.getVRDevices().then( vrDeviceCallback );
 
-    for( var i = 0; i < vrdevs.length; i++ ) {
-        if( vrdevs[i] instanceof HMDVRDevice ) {
-            vrHMD = vrdevs[i];
-            break;
-        }
-    }
+} else if( navigator.mozGetVRDevices ) {
+    // Firefox
+    navigator.mozGetVRDevices( vrDeviceCallback );
 }
-                </code></pre>
+</code></pre>
             </section>
 
             <section data-transition="fadesibling">
-                <pre><code class="javascript">
-container.mozRequestFullScreen({ vrDisplay: vrHMD });
+                <pre><code class="javascript">function vrDeviceCallback( vrDevices ) {
+    for( var i=0; i < vrDevices.length; i++ ) {
+        // If instance of HMDVRDevice...
+        // If instance of PositionSensorVRDevice...
+    }
+}</code></pre>
+            </section>
 
+            <section data-transition="fadesibling">
+                <pre><code class="javascript">var leftFOV =
+    vrHMD.getRecommendedEyeFieldOfView('left');
 
-
-
-
-
-
-
-
+var leftTrans = vrHMD.getEyeTranslation('left');
                 </code></pre>
             </section>
 
-            <!-- TODO show working demo here -->
+            <!-- TODO check what the Chrome equivalent is -->
+            <section data-transition="fadesibling">
+                <pre><code class="javascript">if( container.webkitRequestFullscreen ) {
+    container.webkitRequestFullscreen({
+        vrDisplay: hmdDevice });
+
+} else if (canvas.mozRequestFullScreen) {
+    container.mozRequestFullScreen({
+        vrDisplay: hmdDevice });
+}</code></pre>
+            </section>
+
+            <!--
+            <section>
+                <h3>Add some Three.js and we get...</h3>
+            </section>
+            -->
+
+            <section>
+                <h4>TRex VR</h4>
+                <img src="img/trex-vr.png"/>
+                <!-- TODO: GitHub link -->
+            </section>
 
             <section>
                 <h3>We can now create <em>new worlds</em>!</h3>
