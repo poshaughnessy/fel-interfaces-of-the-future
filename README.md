@@ -6,12 +6,13 @@ Slides based on [reveal.js](http://lab.hakim.se/reveal-js/), copyright (C) 2013 
 
 ## TODO
 
-* Get demo working in Chrome
 * Cardboard example - work out what differences are
+* Add picture credit captions
 * Demo GitHub link
 * Finish script
 * Dry run
 * (Put demo up online? Will need a loading notification...)
+* (Put slides up online?)
 
 
 ## Image credits
