@@ -6,13 +6,11 @@ Slides based on [reveal.js](http://lab.hakim.se/reveal-js/), copyright (C) 2013 
 
 ## TODO
 
-* Cardboard example - work out what differences are
 * Add picture credit captions
-* Demo GitHub link
+* Try CSS3D to check if it works yet
 * Finish script
 * Dry run
-* (Put demo up online? Will need a loading notification...)
-* (Put slides up online?)
+* Put slides up online? Add loading icon?
 
 
 ## Image credits

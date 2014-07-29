@@ -325,7 +325,6 @@ var leftTrans = vrHMD.getEyeTranslation('left');
                 </code></pre>
             </section>
 
-            <!-- TODO check what the Chrome equivalent is -->
             <section data-transition="fadesibling">
                 <pre><code class="javascript">if( container.webkitRequestFullscreen ) {
     container.webkitRequestFullscreen({
@@ -344,9 +343,53 @@ var leftTrans = vrHMD.getEyeTranslation('left');
             -->
 
             <section>
-                <h4>TRex VR Demo</h4>
+                <h4>Oculus Rift TRex Demo</h4>
                 <img src="img/trex-vr.png"/>
-                <!-- TODO: GitHub link -->
+                <!-- TODO: backup video? -->
+            </section>
+
+            <section>
+                <h3><a href="http://bit.ly/oculus-example">bit.ly/oculus-example</a></h3>
+                <h4>Code example from Google</h4>
+            </section>
+
+            <section>
+                <h3>Cardboard</h3>
+                <ul class="more-text fragment">
+                    <li>No WebVR support yet</li>
+                    <li>But we can do without it for now...</li>
+                </ul>
+            </section>
+
+            <section data-transition="fadesibling">
+                <pre><code class="javascript">var effect = new THREE.StereoEffect( renderer );
+...
+effect.render( scene, camera );
+
+
+
+                </code></pre>
+            </section>
+
+            <section data-transition="fadesibling">
+                <pre><code class="javascript">var controls = new THREE.DeviceOrientationControls(
+        camera, true);
+
+controls.connect();
+...
+controls.update();
+                </code></pre>
+            </section>
+
+            <section>
+                <h4>Cardboard TRex Demo</h4>
+                <img src="img/trex-cardboard.png"/>
+                <!-- TODO: backup video? -->
+            </section>
+
+            <section>
+                <h3><a href="http://bit.ly/cardboard-example">bit.ly/cardboard-example</a></h3>
+                <h4>Code example from Google</h4>
             </section>
 
             <section>
@@ -356,7 +399,7 @@ var leftTrans = vrHMD.getEyeTranslation('left');
 
             <section>
                 <h3>Let's get ahead of the curve</h3>
-                <h3 class="fraction">And start hacking now</h3>
+                <h3>And start hacking now</h3>
             </section>
 
             <section>
