@@ -32,9 +32,9 @@ Slides based on [reveal.js](http://lab.hakim.se/reveal-js/), copyright (C) 2013 
 * CSS3D Earth, [edankwan.com](http://www.edankwan.com/lab/css3dEarth)
 * Universe from a meadow, [mind-criminal](http://mind-criminal.deviantart.com/art/Universe-From-a-Meadow-257284639)
 
-## License
+## Licence
 
-* Code: [MIT](LICENSE)
-* Content: [Creative Commons with Attribution 3.0](https://creativecommons.org/licenses/by/3.0/)
+* My code: [MIT](LICENSE)
+* My slides content: [Creative Commons with Attribution 3.0](https://creativecommons.org/licenses/by/3.0/)
 
-Copyright (C) 2014 Peter O'Shaughnessy @poshaughnessy
+Copyright © 2014 Peter O'Shaughnessy (@poshaughnessy)
