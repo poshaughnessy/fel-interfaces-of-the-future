@@ -6,7 +6,9 @@ Slides based on [reveal.js](http://lab.hakim.se/reveal-js/), copyright (C) 2013 
 
 ## TODO
 
+* Add DK (and Eyeon?) logos
 * Add picture credit captions
+* Add backup video for Oculus Rift demo
 * Try CSS3D to check if it works yet
 * Finish script
 * Dry run
