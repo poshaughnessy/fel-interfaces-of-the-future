@@ -240,6 +240,13 @@ body.high-contrast {
   .reveal pre code {
     padding: 10px; }
 
+.reveal .caption {
+  margin-top: -1em;
+  font-size: 0.3em; }
+
+.reveal .caption a {
+  color: #dee6e9; }
+
 section.title h1 {
   margin-bottom: 80px; }
 section.title h2 {
