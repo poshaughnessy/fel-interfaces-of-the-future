@@ -5,12 +5,11 @@ A presentation I am giving at the [Front End London](http://www.frontendlondon.c
 
 ## TODO
 
-* Add DK (and Eyeon?) logos
 * Add backup video for Oculus Rift demo
-* Try CSS3D to check if it works yet
 * Finish script
 * Dry run
 * Put slides up online? Add loading icon?
+* (Fix Pebble remote control if there's time)
 
 
 ## Special thanks
