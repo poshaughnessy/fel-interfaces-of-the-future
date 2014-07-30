@@ -247,6 +247,10 @@ body.high-contrast {
 .reveal .caption a {
   color: #dee6e9; }
 
+.reveal .medium-link {
+  font-size: 0.8em;
+  margin-top: 2em; }
+
 section.title h1 {
   margin-bottom: 80px; }
 section.title h2 {
