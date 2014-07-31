@@ -248,7 +248,9 @@ body.high-contrast {
   color: #dee6e9; }
 
 .reveal .medium-link {
-  font-size: 0.8em;
+  font-size: 0.8em; }
+
+.reveal .medium-link:nth-of-type(1) {
   margin-top: 2em; }
 
 section.title h1 {
