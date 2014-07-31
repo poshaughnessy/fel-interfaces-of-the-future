@@ -5,8 +5,6 @@ A presentation I am giving at the [Front End London](http://www.frontendlondon.c
 
 ## TODO
 
-* Add backup video for Oculus Rift demo
-* Try to fix Oculus demo for 1024x768
 * Finish script
 * Dry run
 * Put slides up online? Add loading icon?
