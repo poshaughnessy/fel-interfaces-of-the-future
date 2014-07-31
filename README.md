@@ -3,14 +3,6 @@
 A presentation I am giving at the [Front End London](http://www.frontendlondon.co.uk) meetup, 31st July 2014.
 
 
-## TODO
-
-* Finish script
-* Dry run
-* Put slides up online? Add loading icon?
-* (Fix Pebble remote control if there's time)
-
-
 ## Special thanks
 
 * Dorling Kindersley for the use of their t-rex dinosaur model and terrain texture in the demos
