@@ -31,7 +31,7 @@
             <section class="title">
                 <h1>Interfaces of the Future</h1>
                 <h2>And how to hack around<br> with them now</h2>
-                <p class="small">Peter O'Shaughnessy <span class="subtle">|</span> <a href="https://www.twitter.com/poshaughnessy">@poshaughnessy</a> <span class="subtle">|</span> Press <strong>f</strong> for full screen, <strong>h</strong> for high contrast</p>
+                <p class="small">Peter O'Shaughnessy <span class="subtle">|</span> <a href="https://www.twitter.com/poshaughnessy">@poshaughnessy</a> <!--<span class="subtle">|</span> Press <strong>f</strong> for full screen, <strong>h</strong> for high contrast--></p>
             </section>
 
             <section>
@@ -39,6 +39,7 @@
                 <img width="70%" src="img/ft-h-white-trans.png" alt="Future Tech"/>
             </section>
 
+            <!--
             <section>
                 <h2>Back... to the future</h2>
             </section>
@@ -54,11 +55,17 @@
                 <img class="full" src="img/A_White_iPhone_3G_displaying_virtual_keyboard_in_portrait_mode.png" alt="iPhone"/>
                 <p class="caption"><a href="http://upload.wikimedia.org/wikipedia/commons/6/62/A_White_iPhone_3G_displaying_virtual_keyboard_in_portrait_mode.jpg">Wikimedia</a></p>
             </section>
+            -->
 
             <section>
-                <h4>The Multi-Device Era (2010-)</h4>
+                <h4>The Multi-Device Era</h4>
                 <img class="full" src="img/multi-device.jpg" alt="Multiple devices"/>
                 <p class="caption"><a href="http://en.wikipedia.org/wiki/Digital_omnivore#mediaviewer/File:Cuddling_with_multiple_devices.jpg">Jeremy Keith</a></p>
+            </section>
+
+            <section>
+                <img class="full" src="img/pictures-under-glass-placeit.jpg" alt="Pictures under glass"/>
+                <p class="caption"><a href="https://placeit.net">PlaceIt</a></p>
             </section>
 
             <section>
@@ -66,20 +73,15 @@
             </section>
 
             <section>
-                <h4>Smartwatches?</h4>
+                <h4>Wearables?</h4>
                 <img class="full" src="img/smartwatches.jpg" alt="Pebble and Galaxy Gear"/>
                 <p class="caption"><a href="https://www.flickr.com/photos/janitors/10345415843/">Kārlis Dambrāns</a></p>
             </section>
 
             <section>
-                <h4>Smartglasses?</h4>
+                <h4>Wearables?</h4>
                 <img src="img/google-glass-scoble.jpg" alt="Google Glass"/>
                 <p class="caption"><a href="https://www.flickr.com/photos/thomashawk/14259298346">Thomas Hawk</a></p>
-            </section>
-
-            <section>
-                <img class="full" src="img/pictures-under-glass-placeit.jpg" alt="Pictures under glass"/>
-                <p class="caption"><a href="https://placeit.net">PlaceIt</a></p>
             </section>
 
             <section data-transition="fadesibling">
@@ -144,16 +146,21 @@
             </section>
 
             <section>
+                <img src="img/augmented-reality-dance.png"/>
+                <p class="caption"><a href="http://vimeo.com/74254297">BeAnotherLab</a></p>
+            </section>
+
+            <section>
                 <img class="full" src="img/oculus-rift-presence.jpg" alt="Oculus Rift Grandma"/>
                 <p class="caption"><a href="http://youtu.be/pAC5SeNH8jw">Paul Rivot</a></p>
             </section>
 
             <section>
-                <h3>All in the last few weeks:</h3>
+                <h3>In the last few weeks:</h3>
                 <div class="fragment">
                     <ul class="more-text">
                         <li><a href="http://blog.ludei.com/webgl-ios-8-safari-webview/">Apple embrace WebGL</a></li>
-                        <li><a href="https://developers.google.com/cardboard/">Google unveil Cardboard</a></li>
+                        <!--<li><a href="https://developers.google.com/cardboard/">Google unveil Cardboard</a></li>-->
                         <li><a href="http://blog.bitops.com/blog/2014/06/26/first-steps-for-vr-on-the-web/">Mozilla release VR Firefox builds</a></li>
                         <li><a href="http://blog.tojicode.com/2014/07/bringing-vr-to-chrome.html">Google release VR Chrome builds</a></li>
                     </ul>
@@ -246,13 +253,12 @@ var leftTrans = vrHMD.getEyeTranslation('left');
             </section>
 
             <section data-transition="fadesibling">
-                <h4>Oculus Rift TRex Demo</h4>
+                <h4>Oculus Rift TRex!</h4>
                 <img src="img/trex-oculus.png"/>
-                <!-- TODO: backup video? -->
             </section>
 
             <section data-transition="fadesibling">
-                <h4>Oculus Rift TRex Demo</h4>
+                <h4>In Case Of Demo Failure, Press Play</h4>
                 <video controls>
                     <source src="movies/trex-oculus.mp4" type="video/mp4;"/>
                 </video>
@@ -264,7 +270,12 @@ var leftTrans = vrHMD.getEyeTranslation('left');
             </section>
 
             <section>
-                <h3>Cardboard</h3>
+                <h3>Google Cardboard</h3>
+                <img src="img/GoogleCardboardWithPhone.jpg" alt="Google Cardboard"/>
+            </section>
+
+            <section>
+                <h3>Coding for Cardboard</h3>
                 <ul class="more-text fragment">
                     <li>No WebVR support yet</li>
                     <li>But we can do without it for now...</li>
@@ -291,13 +302,15 @@ controls.update();
                 </code></pre>
             </section>
 
+            <!--
             <section data-transition="fadesibling">
-                <h4>Cardboard Demo</h4>
+                <h4>Cardboard Trex!</h4>
                 <img src="img/trex-cardboard.jpg"/>
             </section>
+            -->
 
             <section data-transition="fadesibling">
-                <h4>Cardboard Demo (Minus Cardboard)</h4>
+                <h4>Cardboard TRex! (Minus Cardboard)</h4>
                 <video controls>
                     <source src="movies/trex-cardboard.mp4" type="video/mp4;"/>
                 </video>
@@ -361,7 +374,7 @@ controls.update();
             center: true,
 
             theme: 'futuretech', // available themes are in /css/theme
-            transition: Reveal.getQueryHash().transition || 'concave', // default/cube/page/concave/zoom/linear/fade/none
+            transition: Reveal.getQueryHash().transition || 'fade', // default/cube/page/concave/zoom/linear/fade/none
 
             //backgroundTransition: 'concave',
 
