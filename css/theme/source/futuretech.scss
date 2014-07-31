@@ -176,7 +176,7 @@ body.high-contrast {
 
 .reveal .caption {
   margin-top: -1em;
-  font-size: 0.3em;
+  font-size: 0.4em;
 }
 
 .reveal .caption a {
@@ -189,6 +189,10 @@ body.high-contrast {
 
 .reveal .medium-link:nth-of-type(1) {
   margin-top: 2em;
+}
+
+.reveal video {
+  margin-bottom: 15px;
 }
 
 // Slide-specific styles  ----------------------
