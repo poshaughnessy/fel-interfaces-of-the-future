@@ -1,14 +1,6 @@
 # Interfaces of the Future... and how to hack around with them now
 
-A presentation I am giving at the [Front End London](http://www.frontendlondon.co.uk) meetup, 31st July 2014.
-
-
-## TODO
-
-* Finish script
-* Dry run
-* Put slides up online? Add loading icon?
-* (Fix Pebble remote control if there's time)
+A presentation I gave at the [Front End London](http://www.frontendlondon.co.uk) meetup, 31st July 2014.
 
 
 ## Special thanks
