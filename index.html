@@ -31,7 +31,7 @@
             <section class="title">
                 <h1>Interfaces of the Future</h1>
                 <h2>And how to hack around<br> with them now</h2>
-                <p class="small">Peter O'Shaughnessy <span class="subtle">|</span> <a href="https://www.twitter.com/poshaughnessy">@poshaughnessy</a> <!--<span class="subtle">|</span> Press <strong>f</strong> for full screen, <strong>h</strong> for high contrast--></p>
+                <p class="small">Peter O'Shaughnessy <span class="subtle">|</span> <a href="https://www.twitter.com/poshaughnessy">@poshaughnessy</a> <span class="subtle">|</span> Press <strong>f</strong> for full screen, <strong>h</strong> for high contrast</p>
             </section>
 
             <section>
@@ -59,12 +59,12 @@
 
             <section>
                 <h4>The Multi-Device Era</h4>
-                <img class="full" src="img/multi-device.jpg" alt="Multiple devices"/>
+                <img class="full" src="img/multi-device-low.jpg" alt="Multiple devices"/>
                 <p class="caption"><a href="http://en.wikipedia.org/wiki/Digital_omnivore#mediaviewer/File:Cuddling_with_multiple_devices.jpg">Jeremy Keith</a></p>
             </section>
 
             <section>
-                <img class="full" src="img/pictures-under-glass-placeit.jpg" alt="Pictures under glass"/>
+                <img class="full" src="img/pictures-under-glass-placeit-low.jpg" alt="Pictures under glass"/>
                 <p class="caption"><a href="https://placeit.net">PlaceIt</a></p>
             </section>
 
@@ -74,13 +74,13 @@
 
             <section>
                 <h4>Wearables?</h4>
-                <img class="full" src="img/smartwatches.jpg" alt="Pebble and Galaxy Gear"/>
+                <img class="full" src="img/smartwatches-low.jpg" alt="Pebble and Galaxy Gear"/>
                 <p class="caption"><a href="https://www.flickr.com/photos/janitors/10345415843/">Kārlis Dambrāns</a></p>
             </section>
 
             <section>
                 <h4>Wearables?</h4>
-                <img src="img/google-glass-scoble.jpg" alt="Google Glass"/>
+                <img src="img/google-glass-scoble-low.jpg" alt="Google Glass"/>
                 <p class="caption"><a href="https://www.flickr.com/photos/thomashawk/14259298346">Thomas Hawk</a></p>
             </section>
 
@@ -254,11 +254,6 @@ var leftTrans = vrHMD.getEyeTranslation('left');
 
             <section data-transition="fadesibling">
                 <h4>Oculus Rift TRex!</h4>
-                <img src="img/trex-oculus.png"/>
-            </section>
-
-            <section data-transition="fadesibling">
-                <h4>In Case Of Demo Failure, Press Play</h4>
                 <video controls>
                     <source src="movies/trex-oculus-low.mp4" type="video/mp4;"/>
 		    <source src="movies/trex-oculus-low.webm" type="video/webm;"/>
@@ -274,7 +269,7 @@ var leftTrans = vrHMD.getEyeTranslation('left');
 
             <section>
                 <h3>Google Cardboard</h3>
-                <img src="img/GoogleCardboardWithPhone.jpg" alt="Google Cardboard"/>
+                <img src="img/GoogleCardboardWithPhone-low.jpg" alt="Google Cardboard"/>
             </section>
 
             <section>
@@ -334,7 +329,7 @@ controls.update();
             <section>
                 <h3>Today:</h3>
                 <div class="fragment">
-                    <img class="full" src="img/pictures-under-glass-placeit.jpg" alt="Pictures under glass"/>
+                    <img class="full" src="img/pictures-under-glass-placeit-low.jpg" alt="Pictures under glass"/>
                     <p class="caption"><a href="https://placeit.net">PlaceIt</a></p>
                 </div>
             </section>
@@ -342,7 +337,7 @@ controls.update();
             <section>
                 <h3>Tomorrow:</h3>
                 <div class="fragment">
-                    <img src="img/universe_from_a_meadow_by_mind_criminal-d496i3j-with-caption.png"/>
+                    <img src="img/universe_from_a_meadow_by_mind_criminal-d496i3j-with-caption-low.jpg"/>
                     <p class="caption"><a href="http://mind-criminal.deviantart.com/art/Universe-From-a-Meadow-257284639">mind-criminal</a></p>
                 </div>
             </section>
@@ -353,7 +348,7 @@ controls.update();
 
             <section>
                 <h2>Thank you.</h2>
-                <p class="medium-link">Slides (unoptimised!): <a href="http://bit.ly/interfaces-of-the-future">bit.ly/interfaces-of-the-future</a></p>
+                <p class="medium-link">Slides: <a href="http://bit.ly/interfaces-of-the-future">bit.ly/interfaces-of-the-future</a></p>
                 <p class="medium-link">web-vr mailing list: <a href="http://bit.ly/web-vr-mailing-list">bit.ly/web-vr-mailing-list</a></p>
                 <!--<p class="medium-link">Me on Twitter: <a href="http://www.twitter.com/poshaughnessy">@poshaughnessy</a></p>-->
             </section>
@@ -373,7 +368,7 @@ controls.update();
         // Full list of configuration options available here:
         // https://github.com/hakimel/reveal.js#configuration
         Reveal.initialize({
-            controls: false, // Let's put this back to true when we post this up somewhere
+            controls: true,
             progress: false,
             history: true,
             center: true,
@@ -400,7 +395,6 @@ controls.update();
                     return !!document.querySelector('[data-markdown]');
                 } },
                 { src: 'plugin/highlight/highlight.js', async: true, callback: function () {
-                    console.log('xxx init highlighting on load');
                     hljs.initHighlightingOnLoad();
                 } },
                 { src: 'plugin/zoom-js/zoom.js', async: true, condition: function () {
